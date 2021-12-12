@@ -1,0 +1,38 @@
+.continer{
+    position:absolute;
+    width: 100%;
+    height: 99vh;
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.first {
+    position:relative;
+    width: 90%;
+    height: 90%;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.second {
+    position:relative;
+    width: 90%;
+    height: 90%;
+    background-color: pink;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+
+.third {
+    position:relative;
+    width: 60%;
+    height: 40%;
+    background-color: purple;
+   margin: 3% 0 0 20%;
+}

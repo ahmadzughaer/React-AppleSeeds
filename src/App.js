@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import Quiz from "./components/3.2/components/Quiz.components";
+// import HelloWorld from "./components/2.1/components/HomePage.components";
+// import BasicsOfJsx from "./components/2.2/components/App.components";
+
+// import Box1 from "./components/2.3/components/Box.components";
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <HelloWorld></HelloWorld>  //uncomment this & import for assignment 2.1
+    // <BasicsOfJsx></BasicsOfJsx> //uncomment this & import for assignment 2.2
+    // <Box1></Box1> //uncomment this & import for assignment 3.1
+    <Quiz/> //uncomment this & import for assignment 3.2
+
   );
 }
 

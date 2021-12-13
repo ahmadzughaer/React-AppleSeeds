@@ -1,0 +1,12 @@
+.box {
+    width: 500px;
+    height: 500px;
+    background: chocolate;
+    margin: 2%;
+    
+}
+
+.main {
+    width: 90%;
+    display: block;
+}

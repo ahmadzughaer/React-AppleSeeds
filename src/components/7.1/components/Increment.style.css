@@ -1,0 +1,15 @@
+.main {
+    display: flex;
+    margin: 5%;
+    width: 100%;
+    justify-content: center;
+}
+.main button {
+    width: 100px;
+    height: 30px;
+    margin-top: 1.5%;
+}
+
+.main h2 {
+    margin-left: 1%;
+}

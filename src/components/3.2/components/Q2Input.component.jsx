@@ -4,7 +4,7 @@ import React from "react";
 const Q2Input= () => {
   return (
     <div className="input">
-        <input type="text"></input>
+        <input type="text" />
         <button>Submit</button>
     </div>
   );

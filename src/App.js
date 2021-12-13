@@ -29,14 +29,14 @@ function App() {
     //   <Card url ="https://source.unsplash.com/collection/190727/500x500" title='Nice image' desc='a nice image and nice description' link1= "SHARE" link2="EXPLORE"/>
     //   <Card url ="https://source.unsplash.com/collection/190728/500x500" title='Nice image Two' desc='a nice image and nice description two ' link1= "SHARE 2" link2="EXPLORE 2"/>
     //   <Card url ="https://source.unsplash.com/collection/190725/500x500" title='Nice image 3' desc='a nice image and nice description 3' link1= "SHARE 3" link2="EXPLORE 3"/>
-    // </>
+    // </> // assignment 4.2
     //   <>
     // <CardClass url ="https://source.unsplash.com/collection/190727/500x500" title='Nice image' desc='a nice image and nice description' link1= "SHARE" link2="EXPLORE"/>
     //     <CardClass  url ="https://source.unsplash.com/collection/190728/500x500" title='Nice image Two' desc='a nice image and nice description two ' link1= "SHARE 2" link2="EXPLORE 2"/>
     //     <CardClass  url ="https://source.unsplash.com/collection/190725/500x500" title='Nice image 3' desc='a nice image and nice description 3' link1= "SHARE 3" link2="EXPLORE 3"/>
-    //   </>
-    // <Increment/>
-    <HideAndSeek />
+    //   </> // assignment 6.1
+    // <Increment/> // assignment 7.1 
+    <HideAndSeek /> // assignment 7.2
   );
 }
 

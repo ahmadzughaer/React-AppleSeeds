@@ -1,15 +1,15 @@
 // import "./Card.style.css";
 import React from "react";
 
-const Card = (props) => {
+const Card = ({url, title, desc, link1, link2}) => {
   return (
     <div className="card">
-        <img src={props.url}  alt="img"/>
-        <h1>{props.title}</h1>
-        <p>{props.desc}</p>
+        <img src={url}  alt="img"/>
+        <h1>{title}</h1>
+        <p>{desc}</p>
         <div className="link">
-            <button>{props.link1}</button>
-            <button>{props.link2}</button>
+            <button>{link1}</button>
+            <button>{link2}</button>
         </div>
     </div>
    

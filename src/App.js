@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 // import "./components/4.1/components/Button.style.css";
-import "./components/4.2/components/Card.style.css"
-import Increment from "./components/7.1/components/Increment.components";
-import HideAndSeek from "./components/7.2/components/Hide&Seek.components";
-import Card from "./components/4.2/components/Card.component";
+// import "./components/4.2/components/Card.style.css"
+// import Increment from "./components/7.1/components/Increment.components";
+// import HideAndSeek from "./components/7.2/components/Hide&Seek.components";
+// import Card from "./components/4.2/components/Card.component";
 // import Spinner from "./components/9.1/components/Spinners.components";
-import Color from './components/8.1/components/Color.components';
-import BoxAnimate from './components/8.1.2/components/BoxAnimation.components';
+// import Color from './components/8.1/components/Color.components';
+// import BoxAnimate from './components/8.1.2/components/BoxAnimation.components';
+// import ColorBox from './components/8.2/components/ChangeBox.components';
+import Btn from './components/11.1/components/ButtonColors.components';
+import CheckBox from './components/11.2/components/CheckBox.components';
 // import CardClass from "./components/6.1/components/Class.components";
 
 // import Quiz from "./components/3.2/components/Quiz.components";
@@ -16,11 +19,29 @@ import BoxAnimate from './components/8.1.2/components/BoxAnimation.components';
 
 // import Box1 from "./components/2.3/components/Box.components";
 
+// const colors = [
+//   { color: "blue", id: 0 },
+//   { color: "red", id: 1 },
+//   { color: "yellow", id: 2 },
+//   { color: "green", id: 3 }
+// ];
 class App extends React.Component {
   // constructor(props) {
   //   super(props);
-  //   this.state = { seconds: 0 };
+  //   // this.state = { seconds: 0 };
+
+  //   this.state = {
+  //     selectedColor: '',
+  //     setSelectedColor:''
+  //   }
+   
   // }
+  //  updateColor = (color) => {
+  //  this.setState ({setSelectedColor:color})
+  //  console.log(this.state)
+  // };
+
+
   // onStart = () => {
   //   this.setState({ seconds: this.state.seconds + 1 });
   // }
@@ -34,6 +55,7 @@ class App extends React.Component {
   //   clearInterval(this.f);
   //   this.setState({ seconds: 0 })
   // }
+
   render() {
     return (
       // <HelloWorld></HelloWorld>  //uncomment this & import for assignment 2.1
@@ -66,7 +88,27 @@ class App extends React.Component {
       // </div>
       // <Spinner/>
       // <Color/>
-      <BoxAnimate/>
+      // <BoxAnimate/>
+      // <ColorBox/>
+    //   <div>
+    //   <h1>The color selected is {this.state.setSelectedColor} </h1>
+    //   {colors.map((btn) => {
+    //     return (
+    //       <Btn
+    //         callBack={this.state.updateColor}
+    //         id={btn.id}
+    //         key={btn.id}
+    //         color={btn.color}
+    //       />
+    //     );
+    //   })}
+    // </div>
+    <div style={{display: 'block'}}>
+      <CheckBox label = 'I read the term of the app' />
+      <CheckBox label = 'I accept the term of the app' />
+      <CheckBox label = 'I want to get the weekly news letter' checked='deafult' />
+      <CheckBox label = 'I want to get sales and offers' checked='deafult'/>
+    </div>
     );
   }
 }

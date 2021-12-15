@@ -12,7 +12,6 @@ const Card = ({url, title, desc, link1, link2}) => {
             <button>{link2}</button>
         </div>
     </div>
-   
   );
 };
 
